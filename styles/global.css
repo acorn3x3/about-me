@@ -1,6 +1,6 @@
 :root {
     --background: rgb(224, 234, 247);
-    --header-background: white;
+    --header-background: black;
     --footer-background: rgb(243, 242, 242);
 }
 
@@ -16,7 +16,7 @@ header {
     position: sticky;
     top: 0;
     display: flex;
-    align-items: center;
+    align-items: left;
     background-color: var(--header-background);
 }
 
@@ -24,11 +24,15 @@ main {
     padding: 20px;
 }
 
+ul {
+    list-style-type: disc;
+}
+
 footer {
     position: sticky;
     bottom: 0;
     padding: 7px 20px;
-    font-size: .8em;
+    font-size: 0.8em;
     display: flex;
     justify-content: flex-end;
     background-color: var(--footer-background);
