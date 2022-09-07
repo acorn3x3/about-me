@@ -10,6 +10,8 @@ body {
     background-color: wheat;
     display: grid;
     grid-template-rows: auto 1fr auto;
+    border-style: solid;
+    border-width: 5px;
 }
 
 header {
@@ -32,6 +34,8 @@ p {
 ul {
     list-style-type: disc;
 }
+
+<style> 
 
 footer {
     position: sticky;
