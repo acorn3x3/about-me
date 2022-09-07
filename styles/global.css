@@ -28,6 +28,10 @@ p {
     font-size: 40px;
 }
 
+ul {
+    text-align: center;
+    list-style: inside;
+}
 li {
     list-style-type: disc;
 }
