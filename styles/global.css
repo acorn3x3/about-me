@@ -31,13 +31,11 @@ p {
     color: ;
 }
 
-ul {
+li {
     list-style-type: disc;
 }
 
-<style> 
-
-footer {
+<style > footer {
     position: sticky;
     bottom: 0;
     padding: 7px 20px;
